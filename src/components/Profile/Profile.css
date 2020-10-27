@@ -1,0 +1,46 @@
+.profile {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
+  font-size: 20px;
+  max-width: 26%;
+  width: 26%;
+  text-align: center;
+  margin: 120px auto;
+  border: 2px solid rgb(199, 204, 204);
+  background: rgb(235, 233, 233);
+  border-radius: 5px;
+}
+
+.stats {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.description {
+  background: white;
+}
+
+.avatar {
+  margin-top: 34px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.tag {
+  color: grey;
+}
+
+.location {
+  color: grey;
+}
+
+.label {
+  color: grey;
+}
+
+.quantity {
+  display: block;
+  font-weight: bold;
+}

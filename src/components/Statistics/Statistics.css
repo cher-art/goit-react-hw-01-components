@@ -1,0 +1,27 @@
+.statistics {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
+  font-size: 24px;
+  max-width: 60%;
+  width: 60%;
+  text-align: center;
+  margin: 180px auto;
+  border: 2px solid rgb(199, 204, 204);
+  background-color: white;
+}
+
+h2 {
+  font-weight: bold;
+  color: rgb(94, 91, 91);
+  border: 2px solid white;
+  text-transform: uppercase;
+  padding: 50px 40px;
+  border-bottom: 2px solid rgb(199, 204, 204);
+}
+
+.stat-list {
+  display: flex;
+  list-style: none;
+}
+.item {
+  width: 100%;
+}
