@@ -1,5 +1,6 @@
 import React from 'react';
 import './Statistics.css'
+import PropTypes from 'prop-types'
 
 
 const Statistics = ({ title, stats }) => {
@@ -17,5 +18,11 @@ const Statistics = ({ title, stats }) => {
     </section>
   );
 };
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.string.isRequired,
+}
 
 export default Statistics;

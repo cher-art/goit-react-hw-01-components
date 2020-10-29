@@ -1,8 +1,9 @@
 import React from 'react';
 import user from '../db/user.json'
 import './Profile.css';
+import PropTypes from 'prop-types';
 
-const Profile = (user) => {
+function Profile (user) {
   return (
     <div class="profile">
       <div class="description">
@@ -32,7 +33,18 @@ const Profile = (user) => {
         </li>
       </ul>
     </div>
-  );
+  )
 };
+
+Profile.defaultpropTypes ={
+  img: ""
+}
+
+Profile.propTypes = {
+  img: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired
+}
 
 export default Profile;

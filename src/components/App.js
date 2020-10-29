@@ -4,9 +4,9 @@ import user from './db/user.json';
 import Statistics from './Statistics/Statistics';
 import statisticalData from './db/statistical-data.json';
 import FriendList from './FriendsList/FriendsList.js';
-import friends from './db/friends.json';
+import friends from '../db/friends.json';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
-import transactions from './db/transactions.json';
+import transactions from '../db/transactions.json';
 
 const App = () => (
   <div>
@@ -22,5 +22,7 @@ const App = () => (
     <TransactionHistory items={transactions} />
   </div>
 );
+
+
 
 export default App;
